@@ -319,7 +319,7 @@ function App() {
         <section id="galeria" className="py-20 bg-[#1a472a]/5">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-4xl font-serif italic text-center mb-16 text-[#1a472a]">
-              {galleryData.title || t("gallery.title")}
+              {language === "pt" ? "Galeria" : "Gallery"}
             </h2>
 
             {/* Version mobile : Carrousel */}
